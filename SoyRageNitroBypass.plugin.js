@@ -4,6 +4,7 @@
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
+ * @source https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/main/SoyRageNitroBypass.plugin.js
  * @updateUrl https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/main/SoyRageNitroBypass.plugin.js
  */
 
