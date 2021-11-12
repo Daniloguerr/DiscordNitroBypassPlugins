@@ -4,7 +4,7 @@
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
- * @updateUrl https://raw.githubusercontent.com/rauenzi/BetterDiscordAddons/master/Plugins/BetterFormattingRedux/BetterFormattingRedux.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/main/SoyRageStickers.plugin.js
  */
 
 /*@cc_on
