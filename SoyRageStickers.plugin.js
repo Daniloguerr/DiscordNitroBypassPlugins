@@ -3851,7 +3851,7 @@ function Stop() {
 }
 
 return function() { return {
-    getName: () => "SoyRageStickets",
+    getName: () => "SoyRageStickers",
     getShortName: () => "SoyRageStickers",
     getDescription: () => "Habilita la OPCION de STICKERS - Addon",
     getVersion: () => "0.1",
