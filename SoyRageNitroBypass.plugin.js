@@ -1,11 +1,11 @@
 /**
  * @name SoyRageNitroBypass
- * @version 0.2
+ * @version 0.1
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
- * @source https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/main/SoyRageNitroBypass.plugin.js
- * @updateUrl https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/main/SoyRageNitroBypass.plugin.js
+ * @source https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/
+ * @updateUrl https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.plugin.js
  */
 
 class SoyRageNitroBypass {
@@ -13,13 +13,16 @@ class SoyRageNitroBypass {
         return "SoyRageNitroBypass";
     }
     getDescription() {
-        return "Emojis de NITRO & COMPARTIR PANTALLA y FONDOS CAMARA, Sin restriccion (DISCORD NITRO BYPASS)";
+        return "Emojis de NITRO & COMPARTIR PANTALLA, Sin restriccion (DISCORD NITRO BYPASS)";
     }
     getVersion() {
-        return "0.2";
+        return "0.1";
     }
     getAuthor() {
         return "SoyRage";
+    }
+    getUpdateUrl() {
+        return "https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.plugin.js";
     }
     stop() {
         document.removeEventListener("click", this.link);
