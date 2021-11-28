@@ -1,6 +1,6 @@
 /**
  * @name SoyRageNitroBypass
- * @version 0.1
+ * @version 0.2
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
@@ -16,7 +16,7 @@ class SoyRageNitroBypass {
         return "Emojis de NITRO & COMPARTIR PANTALLA, Sin restriccion (DISCORD NITRO BYPASS)";
     }
     getVersion() {
-        return "0.1";
+        return "0.2";
     }
     getAuthor() {
         return "SoyRage";
