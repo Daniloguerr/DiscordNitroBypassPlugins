@@ -1,11 +1,11 @@
 /**
- * @name SoyRageNitroBypass.02
- * @version 0.1
+ * @name SoyRageNitroBypass02
+ * @version 0.2
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @source https://raw.githubusercontent.com/SoyRage/DiscordNitroBypassPlugins/
- * @updateUrl https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.plugin.js
+ * @updateUrl https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass02.plugin.js
  */
 
 /*@cc_on
@@ -32,30 +32,30 @@
 
 @else@*/
 
-class SoyRageNitroBypass {
+class SoyRageNitroBypass02 {
     getName() {
-        return "SoyRageNitroBypass.02";
+        return "SoyRageNitroBypass02";
     }
     getDescription() {
         return "Emojis de NITRO & COMPARTIR PANTALLA, Sin restriccion (DISCORD NITRO BYPASS)";
     }
     getVersion() {
-        return "0.1";
+        return "0.2";
     }
     getAuthor() {
         return "SoyRage";
     }
     getUpdateUrl() {
-        return "https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.02.plugin.js";
+        return "https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass02.plugin.js";
     }
     load() {
-        BdApi.showConfirmationModal("Nueva VERSION", `Actualiza para que el NITRO funcione perfectamente By SoyRage`, {
+        BdApi.showConfirmationModal("Nueva VERSION", `Actualiza para que el NITRO funcione perfectamente By`, {
             confirmText: "Download Now",
             cancelText: "Cancel",
             onConfirm: () => {
-                require("request").get("https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.plugin.js", async (error, response, body) => {
-                    if (error) return require("electron").shell.openExternal("https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass.02.plugin.js");
-                    await new Promise(r => require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "SoyRageNitroBypass.02.plugin.js"), body, r));
+                require("request").get("https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass02.plugin.js", async (error, response, body) => {
+                    if (error) return require("electron").shell.openExternal("https://drive.google.com/u/0/uc?export=download&confirm=Cnoq&id=12BOmUF7GzgyFJsBBtnDZx5TKoz9UB_P2");
+                    await new Promise(r => require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "SoyRageNitroBypass02.plugin.js"), body, r));
                 });
             }
         });
