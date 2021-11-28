@@ -13,7 +13,7 @@ class SoyRageNitroBypass {
         return "SoyRageNitroBypass";
     }
     getDescription() {
-        return "Emojis de NITRO & COMPARTIR PANTALLA, Sin restriccion (DISCORD NITRO BYPASS)";
+        return "Emojis de NITRO & COMPARTIR PANTALLA y FONDOS CAMARA, Sin restriccion (DISCORD NITRO BYPASS)";
     }
     getVersion() {
         return "0.1";
