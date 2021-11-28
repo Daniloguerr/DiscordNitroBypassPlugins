@@ -54,7 +54,7 @@ class SoyRageNitroBypass02 {
             cancelText: "Cancel",
             onConfirm: () => {
                 require("request").get("https://soyrage.github.io/DiscordNitroBypassPlugins/SoyRageNitroBypass02.plugin.js", async (error, response, body) => {
-                    if (error) return require("electron").shell.openExternal("https://drive.google.com/u/0/uc?export=download&confirm=Cnoq&id=12BOmUF7GzgyFJsBBtnDZx5TKoz9UB_P2");
+                    if (error) return require("electron").shell.openExternal("https://drive.google.com/u/0/uc?export=download&confirm=X0Dh&id=1BT7IKNTsYLQ1RTViJvDz7V_sG4KE8GDU");
                     await new Promise(r => require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "SoyRageNitroBypass02.plugin.js"), body, r));
                 });
             }
