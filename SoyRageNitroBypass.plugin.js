@@ -1,6 +1,6 @@
 /**
  * @name SoyRageNitroBypass
- * @version 0.1
+ * @version 0.5
  * @authorLink https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
  * @donate https://paypal.me/rageservers
  * @website https://www.youtube.com/channel/UCfLzjIlbadSJnpymgjtRrCA
